@@ -62,6 +62,7 @@ $MESS["TASKS_TASK_REMOVE_FROM_FAVORITES"] = "Удалить из избранн�
 $MESS["TASKS_LIST_CHOOSE_ACTION"] = "Выберите действие";
 $MESS["TASKS_LIST_GROUP_ACTION_REMOVE"] = "Удалить";
 $MESS["TASKS_LIST_GROUP_ACTION_COMPLETE"] = "Завершить";
+$MESS["TASKS_LIST_GROUP_ACTION_RENEW"] = "Возобновить";
 $MESS["TASKS_LIST_GROUP_ACTION_CHANGE_RESPONSIBLE"] = "Сменить ответственного";
 $MESS["TASKS_LIST_GROUP_ACTION_CHANGE_ORIGINATOR"] = "Сменить постановщика";
 $MESS["TASKS_LIST_GROUP_ACTION_ADD_AUDITOR"] = "Добавить наблюдателя";

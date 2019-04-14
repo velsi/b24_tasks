@@ -861,6 +861,52 @@ if (!function_exists('prepareTaskGroupActions'))
 			)
 		);  // complete
 
+        $actionList[] = array(
+            'NAME' => GetMessage('TASKS_LIST_GROUP_ACTION_RENEW'),
+            'VALUE' => 'renew',
+            'ONCHANGE' => array(
+                array(
+                    'ACTION' => Grid\Panel\Actions::RESET_CONTROLS
+                )
+            )
+        );  // renew
+
+
+//        ob_start();
+//        global $APPLICATION;
+//        $APPLICATION->IncludeComponent(
+//            "bitrix:tasks.tags.selector",
+//            ".default",
+//            array(
+//                "NAME" => "TAGS",
+//                "VALUE" => [],
+//                "ON_SELECT" => ""
+//            ),
+//            null,
+//            array('HIDE_ICONS' => 'Y')
+//        );
+//        $tags = ob_get_contents();
+//        ob_end_clean();
+//        $actionList[] = array(
+//            'NAME' => 'Tags',
+//            'VALUE' => 'tags',
+//            'ONCHANGE' => array(
+//                array(
+//                    'ACTION' => Bitrix\Main\Grid\Panel\Actions::CREATE,
+//                    'DATA' => array(
+//                        array(
+//                            'TYPE' => Bitrix\Main\Grid\Panel\Types::CUSTOM,
+//                            'ID' => 'action_set_tags',
+//                            'NAME' => 'ACTION_SET_TAGS',
+//                            'VALUE' => $tags,
+//                        )
+//                    )
+//                )
+//            )
+//        );  // tags
+
+//        pre(Bitrix\Tasks\Kanban\StagesTable::getStages(1,false));
+
 		$actionList[] = array(
 			'NAME' => GetMessage('TASKS_LIST_GROUP_ACTION_SET_DEADLINE'),
 			'VALUE' => 'setdeadline',
