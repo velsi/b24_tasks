@@ -66,6 +66,7 @@ $MESS["TASKS_LIST_GROUP_ACTION_RENEW"] = "Возобновить";
 $MESS["TASKS_LIST_GROUP_ACTION_CHANGE_RESPONSIBLE"] = "Сменить ответственного";
 $MESS["TASKS_LIST_GROUP_ACTION_CHANGE_ORIGINATOR"] = "Сменить постановщика";
 $MESS["TASKS_LIST_GROUP_ACTION_ADD_AUDITOR"] = "Добавить наблюдателя";
+$MESS["TASKS_LIST_GROUP_ACTION_SET_PARENT"] = "Сделать подзадачей";
 $MESS["TASKS_LIST_GROUP_ACTION_ADD_ACCOMPLICE"] = "Добавить соисполнителя";
 $MESS["TASKS_LIST_GROUP_ACTION_SET_DEADLINE"] = "Указать крайний срок";
 $MESS["TASKS_LIST_GROUP_ACTION_SET_GROUP"] = "Указать группу";

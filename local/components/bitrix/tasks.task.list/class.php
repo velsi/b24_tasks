@@ -443,6 +443,9 @@ class TasksTaskListComponent extends TasksBaseComponent
 					return;
 				}
 				break;
+            case 'setparent':
+                $arguments['parentId'] = (int)$controls['parent'];
+                break;
 		}
 
 		foreach ($rows as $rowId)
